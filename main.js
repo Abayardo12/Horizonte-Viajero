@@ -246,7 +246,7 @@ montaña: {
 ,
 surf: {
   title: "Surf seguro: consejos esenciales para disfrutar sin riesgos",
-  img: "img/surf-mujer.jpg", // asegurate de tener esta imagen en tu carpeta /img/
+  img: "img/Surf-mujer.jpg", // asegurate de tener esta imagen en tu carpeta /img/
   intro: "Aprendé a surfear con responsabilidad y a cuidar tu cuerpo, tu entorno y a los demás en el agua.",
   content: `
     <p>El surf es mucho más que un deporte: es una forma de conectarte con la naturaleza, mantener tu cuerpo activo y liberar la mente. Pero como toda actividad acuática, tiene sus riesgos. La buena noticia es que con información, preparación y sentido común, podés disfrutarlo al máximo sin ponerte en peligro.</p>
