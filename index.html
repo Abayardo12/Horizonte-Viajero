@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horizonte Viajero</title>
+    <link rel="icon" href="Img/logo-responsive-barra-de-navegacion.png" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="estilos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  
+</head>
+<body class="m-0 p-0">
+
+<!-- Donde querés que aparezca la nav -->
+<div id="navbar-placeholder"></div>
+
+
+
+<!-- CARRUSEL -->
+<div class="container-fluid px-0" id="Destinos principales">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="Img/Chamonix,-Francia.jpg" class="d-block w-100 custom-carousel-img" alt="Montaña">
+        <div class="carousel-caption custom-caption">
+          <h1 class="textcarrusel">Chamonix, Francia</h1>
+          <p> Descubrí la magia de los Alpes entre nieve y paisajes únicos.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="Img/Islas-Maldivas.jpg" class="d-block w-100 custom-carousel-img" alt="Islas Maldivas">
+        <div class="carousel-caption custom-caption">
+          <h1 class="textcarrusel">Islas Maldivas</h1>
+          <p> Escapá al paraíso de aguas cristalinas y calma total.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Img/Rio-de-Janeiro,-Brasil.jpg" class="d-block w-100 custom-carousel-img" alt="Bosque">
+        <div class="carousel-caption custom-caption">
+          <h1 class="textcarrusel">Rio-de-Janeiro, Brasil</h1>
+          <p> Vive la energía del carnaval y el encanto del mar.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</div>
+
+<!-- Sección Quiénes Somos + Formulario -->
+<section class="about-section" data-aos="fade-up">
+  <div class="container">
+    <div class="row g-0 align-items-center">
+      <!-- Imagen -->
+      <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-delay="200">
+        <div class="about-image">
+          <img src="Img/Viaje-inspirador.jpg" alt="Viaje con propósito" class="img-fluid w-100 viajeinsp">
+        </div>
+      </div>
+      <!-- Contenido -->
+      <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-delay="400">
+        <div class="about-content p-4 ps-lg-5">
+          <h2>Viajá con Propósito</h2>
+          <p class="horizonte">
+            En <strong>Horizonte Viajero</strong> te ayudamos a descubrir destinos únicos, conectar con culturas nuevas y vivir experiencias inolvidables.
+            Somos más que una agencia: somos tu compañero de aventuras.
+          </p>
+          <div class="features d-flex flex-wrap gap-3 my-3">
+            <span><i class="fas fa-globe"></i> Destinos globales</span>
+            <span><i class="fas fa-shield-alt"></i> Viajes seguros</span>
+            <span><i class="fas fa-users"></i> Atención humana</span>
+          </div>
+          <!-- Centrado solo en móviles y tablets -->
+          <div class="boton-responsive" data-aos="zoom-in" data-aos-delay="600">
+            <a href="preguntas frecuentes.html#contactoform" class="conocemas-light">Conocé más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="container my-5" id="destinos">
+  <div class="text-center mb-4">
+    <h2 class="mb-3">Ofertas destacadas</h2>
+    <p class="mb-4">
+      Descubrí los mejores precios para tus próximos destinos. Estas ofertas
+      son limitadas, ¡aprovechalas ahora!
+    </p>
+  </div>
+
+  <div class="row gy-4 gx-">
+    <!-- Mendoza -->
+    <div class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center">
+      <div class="card position-relative h-100 w-100">
+        <span class="badge colortj position-absolute top-0 start-0 m-2">-15%</span>
+        <img src="Img/Mendoza.jpg" alt="Mendoza" class="card-img-top img-fluid">
+        <div class="card-overlay p-2">
+          <h5 class="card-title mb-1">Mendoza, Argentina</h5>
+          <p class="card-text">Desde $85.000 ARS</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cataratas -->
+    <div class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center">
+      <div class="card position-relative h-100 w-100">
+        <span class="badge colortj position-absolute top-0 start-0 m-2">Top</span>
+        <img src="Img/Cataratas-del-Iguazú.jpg" alt="Cataratas del Iguazú" class="card-img-top img-fluid">
+        <div class="card-overlay p-2">
+          <h5 class="card-title mb-1">Cataratas del Iguazú, Argentina</h5>
+          <p class="card-text">Desde $315.000 ARS</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Torres del Paine -->
+    <div class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center">
+      <div class="card position-relative h-100 w-100">
+        <span class="badge colortj position-absolute top-0 start-0 m-2">Nuevo</span>
+        <img src="Img/Torres-del-Paine,-Chile.jpg" alt="Torres del Paine" class="card-img-top img-fluid">
+        <div class="card-overlay p-2">
+          <h5 class="card-title mb-1">Torres del Paine, Chile</h5>
+          <p class="card-text">Desde $500.000 ARS</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Polinesia Francesa -->
+    <div class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center">
+      <div class="card position-relative h-100 w-100">
+        <span class="badge colortj position-absolute top-0 start-0 m-2">Exótico</span>
+        <img src="Img/Bora-Bora,-Polinesia-Francesa.jpg" alt="Bora Bora" class="card-img-top img-fluid">
+        <div class="card-overlay p-2">
+          <h5 class="card-title mb-1">Papeete, Polinesia Francesa</h5>
+          <p class="card-text">Desde $2.040.000 ARS</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Marruecos 1 -->
+    <div class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center">
+      <div class="card position-relative h-100 w-100">
+        <span class="badge colortj position-absolute top-0 start-0 m-2">Cultural</span>
+        <img src="Img/Marrakech,-Marruecos.jpg" alt="Marruecos" class="card-img-top img-fluid">
+        <div class="card-overlay p-2">
+          <h5 class="card-title mb-1">Rabat, Marruecos</h5>
+          <p class="card-text">Desde $820.000 ARS</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Egipto -->
+    <div class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center">
+      <div class="card position-relative h-100 w-100">
+        <span class="badge colortj position-absolute top-0 start-0 m-2">Cultural</span>
+        <img src="Img/El-cairo.jpg" alt="El Cairo" class="card-img-top img-fluid">
+        <div class="card-overlay p-2">
+          <h5 class="card-title mb-1">El Cairo, Egipto</h5>
+          <p class="card-text">Desde $920.000 ARS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="beneficios" >
+  <div class="beneficios-titulo">
+    <h2>¿Por qué elegir <span>Horizonte Viajero</span>?</h2>
+    <p>Viajar es más que moverse. Es confiar, explorar y disfrutar con seguridad.</p>
+  </div>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="beneficio-icono-wrapper">
+          <span><i class="fas fa-map-marked-alt icono-global"></i></span>
+        </div>
+        <h3>Destinos Globales</h3>
+        <p>Más de 50 países para que vivas experiencias únicas e inolvidables.</p>
+      </div>
+      <div class="col">
+        <div class="beneficio-icono-wrapper">
+          <span><i class="fas fa-shield-alt icono-seguro"></i></span>
+        </div>
+        <h3>Viajes Seguros</h3>
+        <p>Con asistencia, seguros incluidos y respaldo internacional 24/7.</p>
+      </div>
+      <div class="col">
+        <div class="beneficio-icono-wrapper">
+          <span><i class="fas fa-users icono-humano"></i></span>
+        </div>
+        <h3>Atención Humana</h3>
+        <p>Sin bots ni máquinas. Personas reales para ayudarte en todo momento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="faq-section" id="faqsection">  
+  <div class="faq-title">
+    <h2 class="preguntas">Preguntas Frecuentes</h2>
+    <p class="respuestas">Respondemos tus dudas más comunes para que viajes con total confianza.</p>
+  </div>
+
+  <div class="faq-container">
+    <div class="faq-item">
+      <button class="faq-question">
+        <span class="faq-text">¿Qué incluye el seguro de viaje?</span>
+        <span class="arrow">&#9662;</span>
+      </button>
+      <div class="faq-answer">
+        <p>Incluye asistencia médica internacional, cancelaciones, pérdida de equipaje y más. Contás con respaldo 24/7.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        <span class="faq-text">¿Puedo pagar en cuotas?</span>
+        <span class="arrow">&#9662;</span>
+      </button>
+      <div class="faq-answer">
+        <p>Sí, ofrecemos financiación sin interés con tarjetas seleccionadas. También aceptamos transferencias y billeteras digitales.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        <span class="faq-text">¿Qué documentos necesito?</span>
+        <span class="arrow">&#9662;</span>
+      </button>
+      <div class="faq-answer">
+        <p>Depende del destino. En general, pasaporte vigente y visa si corresponde. Nosotros te asesoramos en todo momento.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        <span class="faq-text">¿Los viajes son grupales o individuales?</span>
+        <span class="arrow">&#9662;</span>
+      </button>
+      <div class="faq-answer">
+        <p>Tenemos ambos. Podés sumarte a grupos organizados o armar tu experiencia personalizada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<div id="footer-placeholder"></div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+
+
+
+
+
+</body>
+</html>
